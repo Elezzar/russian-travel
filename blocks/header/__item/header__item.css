@@ -1,0 +1,14 @@
+.header__item {
+  width: 100vw;
+  padding-top: 28px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 320px) {
+  .header__item {
+    padding-top: 16px;
+  }
+}
