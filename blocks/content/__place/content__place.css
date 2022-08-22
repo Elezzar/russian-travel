@@ -1,0 +1,11 @@
+.content__place {
+  margin: 0;
+  padding: 0px 100px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+  .content__place {
+    padding: 0px;
+  }
+}
