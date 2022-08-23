@@ -32,9 +32,11 @@
 @import url('../blocks/place/__image/place__image.css');
 @import url('../blocks/place/__text/place__text.css');
 @import url('../blocks/place/__paragraph/place__paragraph.css');
-
-
-
+@import url('../blocks/cover/cover.css');
+@import url('../blocks/cover/__link/cover__link.css');
+@import url('../blocks/cover/__overlay/cover__overlay.css');
+@import url('../blocks/cover/__title/cover__title.css');
+@import url('../blocks/cover/__subtitle/cover__subtitle.css');
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__links/footer__links.css');
 @import url('../blocks/footer/__link/footer__link.css');
@@ -43,72 +45,4 @@
 
 * {
   box-shadow: 0px 0px 5px red;
-}
-
-
-
-.cover {
-  margin: 0;
-  padding: 0;
-  width: 100vw;
-  max-height: 740px;
-  height: 100vh;
-  background-image: url('../images/cover-trains.jpg');
-  background-size: 1184px 740px;
-  background-repeat: no-repeat;
-  flex-direction: column;
-  display: flex;
-}
-
-.cover__link {
-  text-decoration: none;
-  height: 100%;
-}
-
-.cover__overlay {
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  background: #2A2C2F;
-  opacity: 0.3;
-  z-index: 1;
-}
-
-.cover__overlay:hover {
-  opacity: 0.8;
-  transition-property: opacity;
-}
-
-.cover__title {
-  margin: 0 auto;
-  padding: 0;
-  padding-top: 245px;
-  max-width: 560px;
-  color: #fff;
-  font-family: 'Inter', serif, sans-serif;
-  font-weight: 900;
-  font-size: 72px;
-  line-height: 76px;
-  text-align: center;
-  position: relative;
-  z-index: 2;
-}
-
-.cover__subtitle {
-  margin: 0 auto;
-  padding: 0;
-  padding-top: 32px;
-  max-width: 380px;
-  color: #fff;
-  font-family: 'Inter', serif, sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 33px;
-  text-align: center;
-  position: relative;
-  z-index: 2;
 }
