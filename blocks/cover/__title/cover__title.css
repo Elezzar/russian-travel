@@ -19,13 +19,13 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 810px) {
   .cover__title {
     margin-top: 115px;
   }
 }
 
-@media screen and (max-width: 555px) {
+@media screen and (max-width: 630px) {
   .cover__title {
     max-width: 288px;
     margin-top: 33px;
