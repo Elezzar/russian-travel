@@ -4,10 +4,15 @@
   z-index: 1;
   text-decoration: none;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-content: center;
 }
 
 .cover__overlay::before {
   content: '';
+  
   position: absolute;
   height: 100%;
   width: 100%;
@@ -15,9 +20,16 @@
   left: 0;
   background: #2A2C2F;
   opacity: 0.3;
+  
 }
 
 .cover__overlay:hover::before {
   opacity: 0.8;
   transition-property: opacity;
+}
+
+@media screen and (max-width: 320px) {
+  .cover__overlay {
+    width: 320px;
+  }
 }
