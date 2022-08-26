@@ -3,7 +3,6 @@
 @import url('../blocks/page/page.css');
 @import url('../blocks/page/__place/page__place.css');
 @import url('../blocks/content/content.css');
-@import url('../blocks/content/__place/content__place.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__item/header__item.css');
 @import url('../blocks/header/__logo/header__logo.css');
@@ -41,8 +40,3 @@
 @import url('../blocks/footer/__links/footer__links.css');
 @import url('../blocks/footer/__link/footer__link.css');
 @import url('../blocks/footer/__copyright/footer__copyright.css');
-
-
-* {
-  box-shadow: 0px 0px 5px red;
-}
