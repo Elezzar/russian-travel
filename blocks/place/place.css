@@ -18,14 +18,14 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 798px) {  /*768*/
   .place {
     grid-template-columns: 340px 1fr;
     gap: 48px 28px;
   }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 647px) { /*520*/
   .place {
     grid-template-rows: 1fr;
     grid-template-columns: 1fr;
