@@ -6,17 +6,24 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1030px) { /*1024*/
   .places {
     padding: 0px 48px 0px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 803px) { /*768*/
   .places {
     padding: 0px 24px 0px;
   }
 }
+
+@media screen and (max-width: 651px) { /**/
+  .places {
+    padding: 0px 16px 0px;
+  }
+}
+
 
 @media screen and (max-width: 320px) { 
   .places {
